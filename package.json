@@ -4,7 +4,9 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "type-check": "tsc"
+    "type-check": "tsc",
+    "download-images": "node scripts/download-images.js",
+    "download-images-advanced": "node scripts/download-images-advanced.js"
   },
   "dependencies": {
     "next": "latest",
