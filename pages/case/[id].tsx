@@ -301,7 +301,7 @@ export default function CasePage() {
   }
 
   return (
-    <div style={{ background: "#10141a", minHeight: "100vh", padding: 32 }}>
+    <div className="case-detail-root" style={{ background: "#10141a", minHeight: "100vh", padding: 32 }}>
       <button
         style={{ color: "#fff", background: "none", border: "none", fontSize: 18, marginBottom: 16, cursor: "pointer" }}
         onClick={() => router.push("/")}
@@ -318,7 +318,7 @@ export default function CasePage() {
           marginBottom: 32,
           width: '100%'
         }}
-        className="custom-scrollbar"
+        className="custom-scrollbar case-list"
       >
         {normalItems.map((item: any) => (
           <div key={item.id} style={{ display: 'inline-block', marginRight: 12 }}>
@@ -452,6 +452,19 @@ export default function CasePage() {
         .custom-scrollbar {
           scrollbar-color: #FFD700 rgba(255,255,255,0.08);
           scrollbar-width: thin;
+        }
+      `}</style>
+      <style jsx global>{`
+        @media (max-width: 600px) {
+          .case-detail-root {
+            width: 100vw !important;
+            padding: 0 !important;
+          }
+          .prize-card {
+            width: 96vw !important;
+            margin-left: 2vw !important;
+            margin-right: 2vw !important;
+          }
         }
       `}</style>
     </div>

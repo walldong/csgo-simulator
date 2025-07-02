@@ -20,6 +20,7 @@ const PrizeCard: React.FC<PrizeCardProps> = ({ item, highlight, width = 120, sho
   const isRare = item.rarity && item.rarity.id === "rarity_exceedingly_rare";
   return (
     <div
+      className="prize-card"
       style={{
         width,
         borderRadius: 8,
