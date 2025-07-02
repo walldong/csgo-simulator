@@ -64,6 +64,7 @@ csgo-simulator/
 
 如有建议、bug反馈或想要贡献代码，欢迎提issue或PR。
 
+数据来源：https://github.com/ByMykel/CSGO-API
 ---
 
 本项目仅供学习交流，严禁用于任何商业用途。

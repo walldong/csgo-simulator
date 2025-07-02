@@ -8,11 +8,11 @@ const CARD_WIDTH = 120; // 单个奖品卡片宽度，与RollingRow保持一致
 
 // 稀有度概率配置
 const rarityChances = [
-  { id: "rarity_rare_weapon", chance: 0.26 },      // 军规级
+  { id: "rarity_rare_weapon", chance: 79.92 },      // 军规级
   { id: "rarity_mythical_weapon", chance: 15.98 },  // 受限级
   { id: "rarity_legendary_weapon", chance: 3.2 },   // 保密级
   { id: "rarity_ancient_weapon", chance: 0.64 },    // 隐秘级
-  { id: "rarity_exceedingly_rare", chance: 79.92  },  // 极其稀有
+  { id: "rarity_exceedingly_rare", chance: 0.26  },  // 极其稀有
 ];
 const wearLevels = [
     { id: "Factory New", name: "崭新出厂", min: 0.00, max: 0.07, chance: 10 },
